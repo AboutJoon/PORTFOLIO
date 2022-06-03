@@ -1,0 +1,931 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+
+
+/* 헤더 */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1280px;
+    margin: 0 auto;  
+}
+
+.logo {
+    float: left;
+    width: 300px;
+    height: 98px;
+    margin: 15px 15px 15px 15px;
+ /* 로고 */
+}
+
+/* 네비게이션 영역 */
+
+nav {
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.topMenu {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+}
+
+.topMenu ul {
+    position: relative;
+}
+
+.topMenu ul li {
+    float: left;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.topMenu ul li a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+
+.topMenu ul li a:hover {
+    color: red;
+}
+
+/* 각 페이지 네비게이션 영역 색 변경 */
+
+#profileY {
+    color: orange;
+}
+
+#lawY {
+    color: orange;
+}
+
+#developY {
+    color: yellow;
+}
+
+#designY {
+    color: orange;
+}
+
+#callY {
+    color: orange;
+}
+
+/* 개발자 탭 네비게이션 영역 */
+
+.devMenu {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+}
+
+.devMenu ul {
+    position: relative;
+}
+
+.devMenu ul li {
+    float: left;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.devMenu ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+.devMenu ul li a:hover {
+    color: red;
+}
+
+/* 언어 변환 */
+
+.kor {
+    position: relative;
+    display: inline-block;
+    top: 45px;
+    left: 100px;
+}
+
+.eng {
+    position: relative;
+    display: inline-block;
+    left: 120px;
+    top: 43px;
+}
+
+/* 메인 영역 */
+
+#main {
+    width: 1250px;
+    height: 592px;
+    background-color: #C9D6DF;
+    margin: 80px 15px 15px 15px;
+}
+
+h1 {
+    display: inline;
+    font-size: 50px;
+    font-family:'Babylonica', cursive;
+    text-align: center;
+    padding-left: 90px; 
+}
+
+.box {
+    display: flex;
+    margin-top: 40px;
+}
+
+.box1 {
+    background-color: white;
+    width: 284px;
+    height: 451px;
+    position: relative;
+    margin-left: 15px;
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+#sen2 {
+    font-size: 15px;
+}
+
+.box2 {
+    background-color: white;
+    width: 284px;
+    height: 451px;
+    position: relative;
+    margin-left: 28px;
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+#sen4 {
+    font-size: 15px;
+}
+
+.box3 {
+    background-color: white;
+    width: 284px;
+    height: 451px;
+    position: relative;
+    margin-left: 28px;
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+#sen6 {
+    font-size: 15px;
+}
+
+.box4 {
+    background-color: white;
+    width: 284px;
+    height: 451px;
+    position: relative;
+    margin-left: 28px;
+    margin-right: 15px;
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+#sen7 {
+    margin-bottom: 0px;
+}
+
+#sen8 {
+    font-size: 15px;
+}
+
+
+/* 프로필 영역 */
+
+.prof {
+    width: 1250px;
+    height: 300px;
+}
+
+/* abilities 영역 */
+
+#abil {
+    position: relative;
+    bottom: 40px;
+    display: inline;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+}
+
+.abil_icon {
+    position: relative;
+    top:100px;
+    width: 80px;
+    display: inline;
+    height: auto;
+    text-align: left;
+    right: 50px;
+}
+
+#abil_icon1 {
+    position: relative;
+    margin-bottom: 28px;
+    
+}
+
+#abil_icon2 {
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+#abil_icon3 {
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 22px;
+}
+
+#abil_icon4 {
+    margin-left: 90px;
+    margin-bottom: 22px;
+}
+
+#abil_icon5 {
+    margin-left: 90px;
+    margin-bottom: 23px;
+}
+
+#abil_icon6 {
+    margin-top: 25px;
+    margin-left: 90px;
+    margin-bottom: 5px;
+    width: 120px;
+    height: 135px;
+}
+
+#abil_icon7 {
+    margin-left: 90px;
+    margin-bottom: 15px;
+}
+
+
+/* Activities 영역 */
+
+#prof_Act {
+    position: relative;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+    top: 100px;
+}
+
+.activeBox {
+    width: 1250px;
+    height: 1975px;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 130px;
+
+
+    /* grid 사용했을 때
+    display: grid;
+    grid-gap: auto;
+    grid-template-areas: 
+        "box1 box2"
+        "box3 box4"
+        "box5 box6"
+        ". box7";
+    */
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+.activeBox1 {
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-left: 20px;
+    grid-area: box1;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+
+#act_1 {
+    position: relative;
+    top: 70px;
+    right: 150px;
+}
+
+#act_2 {
+    position: relative;
+    top: 65px;
+    right: 40px;
+}
+
+#box1_comment {
+    background-color: #FFEA85;
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    top: 167px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.activeBox2 {
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-left: 20px;
+    grid-area: box2;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+
+#act_3 {
+    position: relative;
+}
+
+#act_4 {
+    position: relative;
+    bottom: 15px;
+}
+
+#box2_comment {
+    background-color: #FFEA85;
+    width: 600px;
+    height: 50px;
+    bottom: 15px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.activeBox3 {
+    width: 600px;
+    height: 650px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 20px;
+    grid-area: box3;
+    padding-top: 25px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+#act_5 {
+    position: relative;
+}
+
+#act_6 {
+    position: relative;
+    bottom: 10px;
+}
+
+#box3_comment {
+    background-color: #FFEA85;
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    line-height: 50px;
+    font-size: 20px;
+    bottom: 10px;
+}
+
+.activeBox4 {
+    width: 600px;
+    height: 418px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 20px;
+    grid-area: box4;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+
+#act_7 {
+    position: relative;
+    bottom: 20px;
+}
+
+#act_8 {
+    position: relative;
+    bottom: 40px;
+}
+
+#box4_comment {
+    background-color: #FFEA85;
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.activeBox5 {
+    position: relative;
+    width: 600px;
+    height: 650px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 20px;
+    grid-area: box5;
+    padding-top: 25px;
+    border-radius: 20px;
+    bottom: 25px;
+}
+
+#act_9 {
+    position: relative;
+    bottom: 5px;
+}
+
+#act_10 {
+    position: relative;
+    bottom: 20px;
+}
+
+#box5_comment {
+    background-color: #FFEA85;
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    position: relative;
+    bottom: 25px;
+}
+
+.activeBox6 {
+    width: 600px;
+    height: 651px;
+    background-color: #fff;
+    margin-top: 0;
+    margin-left: 20px;
+    grid-area: box6;
+    padding-top: 25px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 190px;
+}
+
+#act_11 {
+    position: relative;
+    top: 35px;
+}
+
+#act_12 {
+    position: relative;
+    top: 25px;
+}
+
+
+#box6_comment {
+    background-color: #FFEA85;
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    top: 53px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.activeBox7 {
+    width: 590px;
+    height: 170px;
+    margin-top: 30px;
+    margin-left: 20px;
+    grid-area: box7;
+    border-radius: 20px;
+    position: relative;
+    left: 620px;
+    bottom: 190px;
+}
+
+
+/* 로스쿨 탭 */
+
+#lawPic {
+    position: relative;
+    float: right;
+    top: 120px;
+}
+
+#lawR1 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    position: relative;
+    right: 230px;
+    top: 160px;
+}
+
+#lawR2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: 110px;
+    left: 60px;
+    z-index: 2;
+}
+
+#lawBox {
+    position: relative;
+    width: 400px;
+    height: 30px;
+    background-color: #FFDD28;
+    left: 55px;
+    top: 61px;
+    z-index: 1;
+}
+
+
+#lawR3 {
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    color: #7B7676;
+    top: 90px;
+    right: 70px;
+}
+
+
+/* 개발자 탭 */
+
+#developPic {
+    position: absolute;
+    width: 850px;
+    height: auto;
+    z-index: -1;
+    opacity: 0.95;
+    right: 235px;
+}
+
+.developBox {
+    position: relative;
+    width: 411px;
+    height: 211px;
+    background-color: #EBEBEB;
+    float: none;
+    left: 60px;
+    margin-top: 150px;
+}
+
+#dev_1 {
+    position: absolute;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    left: 50px;
+    top: 10px;
+}
+
+#dev_2 {
+    position: absolute;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    color: #7B7676;
+    text-align: center;
+    left: 35px;
+    top: 100px;
+}
+
+.developAbil {
+    position: relative;
+    top: 300px;
+    width: 1250px;
+    height: 465px;
+    background-color: #EFF4F8;
+    display: flex;
+}
+
+#devabil_pic1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 110px;
+    right: 173px;
+}
+
+#devabil_pic2 {
+    position: relative;
+    width: 119px;
+    height: 119px;
+    top: 150px;
+    left: 114px;
+}
+
+#devabil_pic3 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    top: 150px;
+    left: 400px;
+}
+
+#devabil {
+    position: relative;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    bottom: 35px;
+    left: 513px;
+}
+
+#devabil_1 {
+    position: absolute;
+    top: 329px;
+    left: 129px;
+    font-size: 20px;
+    color: #7B7676;
+    text-align: center;
+}
+
+#devabil_2 {
+    position: absolute;
+    top: 329px;
+    left: 600px;
+    font-size: 20px;
+    color: #7B7676;
+}
+
+#devabil_3 {
+    position: absolute;
+    top: 329px;
+    left: 950px;
+    font-size: 20px;
+    color: #7B7676;
+}
+
+
+/* 디자이너 탭 */
+#designBox {
+    width: 1250px;
+    height: 592px;
+    background-color: #32B980;
+    margin-top: 80px;
+    z-index: 0.2;
+}
+
+#designPic {
+    position: relative;
+    top: 80px;
+    right: 20px;
+}
+
+#designSen {
+    color: #fff;
+    position: relative;
+    font-size: 57px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+    left: 55px;
+    bottom: 370px;
+    z-index: 0.5;
+}
+
+/*  디자인 콘텐츠 영역*/
+.designContent {
+    text-align: center;
+}
+
+#designCon_1 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 200px;
+}
+
+#designCon_2 {
+    position: relative;
+    color: #7B7676;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    bottom: 30px;
+    line-height: 150%;
+}
+
+.designBtn {
+    position: relative;
+    display: block;
+    margin: auto;
+    bottom: 20px;
+    text-align: center;
+}
+
+#cardBtn {
+    width: 90px;
+    height: 35px;
+    background-color: #01A8CC;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#movieBtn{
+    width: 90px;
+    height: 35px;
+    background-color: #01A8CC;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+#tempBtn{
+    width: 90px;
+    height: 35px;
+    background-color: #01A8CC;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.card_Pics {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#card_Pics1 {
+    width: 250px;
+    height: 250px;
+}
+
+#card_Pics2 {
+    width: 250px;
+    height: 250px;
+    padding-left: 50px;
+}
+
+#card_Pics3 {
+    width: 250px;
+    height: 250px;
+    padding-left: 50px;
+}
+
+#card_Pics4 {
+    width: 250px;
+    height: 250px;
+    padding-left: 50px;
+}
+
+#card_Pics5 {
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+}
+
+#card_Pics6 {
+    width: 250px;
+    height: 250px;
+    padding-left: 50px;
+}
+
+#card_Pics7 {
+    width: 250px;
+    height: 250px;
+    padding-left: 50px;
+}
+
+#card_Pics8 {
+    width: 250px;
+    height: 250px;
+    padding-left: 50px;
+}
+
+
+/* 연락처 탭 */
+.callPic_1{
+    position: relative;
+    top: 75px;
+    width: 387px;
+    height: 498px;
+    background-color: #C4C4C4;
+    display: inline-block;
+    right: 280px;
+}
+
+#callSen1{
+    position: relative;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 17px;
+    color: #FFA41C;
+    bottom: 5px;
+    left: 35px;
+}
+
+#callSen2{
+    position: relative;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    bottom: 30px;
+}
+
+#callPic1{
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+    width: 320px;
+    height: 400px;
+    display: block;
+}
+
+.callPic_2{
+    position: relative;
+    bottom: 440px;
+    left: 480px;
+    width: 763px;
+    height: 450px;
+    background-color: #C4C4C4;
+}
+
+#callSen3{
+    position: relative;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 17px;
+    color: #FFA41C;
+    left: 180px;
+    top: 15px;
+}
+
+#callSen4{
+    position: relative;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    bottom: 5px;
+}
+
+#callPic2{
+    position: relative;
+    width: 650px;
+    height: 320px;
+    left: 60px;
+    bottom: 15px;
+    display: block;
+}
+
+/* 푸터 */
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+
+#footSen{
+    font-size: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: inline;
+    position: relative;
+}
+
+#sns{
+    display: inline;
+    float: right;
+}
